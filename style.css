@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ................container-1.................. */
+.container-1{
+    height: 750px;
+    width:100%;
+}
+
+/* ...........copy.......... */
+
+body{background-image:url(./background.png);
+    background-size: 100%100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading{
+    width: 1170px;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+
+.heading{
+    border-style: ridge;
+    height: 80px;
+   border-top: 0px;
+}
+
+.heading ul{list-style-type: lower-roman;
+    /* ....font-family.... */
+    transition: 0.5s;
+    text-align: right;
+    display:inline-block;
+    margin-left:180px; 
+    
+}
+
+li{
+    display:inline ;
+    padding-left: 40PX; 
+}
+
+li:hover{
+    cursor: pointer;
+    color: green;
+}
+a{text-decoration: none;
+    
+ }
+
+.Link{
+    color: black;
+}
+a:hover{
+    color:green;
+}
+.Login{
+    margin-right: 0;
+}
+
+#Heading{ font-family: 'Courier New';
+color: white;
+font-size: 65px;
+font-weight:600 ;
+text-align: center;
+margin-top: 150px;
+}
+
+.paragraph{text-align: center;
+font-size: large;
+color:white;
+font-size: 22px;
+margin-top: 50px;
+
+}
+
+.button01{
+    height: 45px;
+    width: 200px;
+    margin-left:560px ;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif  ;
+    color: white;
+    background-color: rgb(212, 53, 53);
+    border-style: 2px solid;
+    margin-top: 50px;
+    transition:0.6s;
+    cursor: pointer;
+    border-style: solid;
+    border-color: white;
+}
+   
+
